@@ -1,0 +1,116 @@
+.parent {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  .box{
+      background-color: pink;
+      border-radius: 50px;
+      width: 300px;
+      height: 300px;
+      margin: 5px;
+      flex-direction: row;
+  }
+  .e1{
+    background:#5d3a3a;
+    margin:0;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 200px;
+    height: 200px
+  }
+  #e1{
+    margin-top: auto;
+    width: 70px;
+    height: 70px;
+    background: #b5e0ba;
+  }
+
+.e20{background: #62374e;
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  margin-left: 50px;
+  }
+  .e2{
+    margin:50px;
+    margin-top:50px;
+    margin-left:50px;
+    margin-right:50px;
+    width: 30px;
+    height: 30px;
+    background: #fdc57b;
+    box-shadow: 50px 0 #fdc57b, 50px 50px #fdc57b, 0 50px #fdc57b;
+  }
+  
+  .n{
+    background: #6592CF;
+    width: 200px;
+    height: 200px;
+    margin-top:50px;
+    margin-left: 50px;
+    position:relative;
+  }
+  .r{background: #243d83;
+    width:150px;
+    height:90px;
+    margin: auto;
+    position:absolute;
+    top:50px;
+    left:25px;
+  }
+.c{background: #6592cf;
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:25px;
+    left:55px;
+    border-radius:100%
+  }
+  .cm{background: #243d83;
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:50px;
+    left:80px;
+    border-radius:100%}
+  
+  .cc{background: #eeb850;
+    width:20px;
+    height:20px;
+    position:absolute;
+    top:65px;
+    left:95px;
+    border-radius:100%}
+  
+  .h{background:#62306d;
+    margin: 50px;
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    position:relative}
+  .m{
+    width: 50px;
+    height: 50px;
+    background: #f7ec7d;
+    margin: auto;
+    margin-top:50px;
+    border-radius:50% 50% 0 0;
+  }
+  .l{
+    width: 50px;
+    height: 50px;
+    position:static;
+    background: #f7ec7d;
+    margin-left:20px;
+    border-radius:0 0 50% 50%;
+  }
+  .rr{
+    width: 50px;
+    height: 50px;
+    background: #f7ec7d;
+    border-radius:0 0 50% 50%;
+    position:absolute;
+    top: 50px;
+    right:30px;
+  }
